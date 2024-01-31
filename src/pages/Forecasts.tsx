@@ -147,7 +147,9 @@ export const Forecasts = () => {
                     </TempertureInfo>
                     <TempertureInfo>
                       <FaUmbrella size={18} color="#4d5b7c" />
-                      <TempertureText>{`Rain: ${item.rain} mm (inch)`}</TempertureText>
+                      <TempertureText>{`Rain: ${Math.trunc(
+                        item.rain
+                      )} mm (inch)`}</TempertureText>
                     </TempertureInfo>
                     <TempertureInfo>
                       <FaTemperatureLow size={18} color="#4d5b7c" />
