@@ -51,6 +51,15 @@ const AddForecast = () => {
   });
 
   const addItem = () => {
+    if (item.latitude > 90 || item.latitude < -90) {
+      alert("Latitude must be between -90 and 90");
+      return;
+    }
+    if (item.longitude > 180 || item.longitude < -180) {
+      alert("Longitude must be between -180 and 180");
+      return;
+    }
+
     locationStore.addCoordinates(
       item.latitude,
       item.longitude,
