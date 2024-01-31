@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# lp-weather-app 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação para incluir e exibir dados meteorológicos através dos parâmetros de latitude e longitude.
 
-Currently, two official plugins are available:
+**Para rodar a aplicação basta seguir os seguintes passos:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ☀️ `git clone https://github.com/lpazzim/lp-weather-app.git`
+- 🌙 Acessar a pasta do projeto via terminal `cd lp-weather-app`
+- 🌧️ Instalar as dependencias do projeto `pnpm i` (_nesse projeto utilizei o pnpm caso não tenha instalado é recomendado instalar antes de rodar esse comando_ )
+- ❄️ Para rodar o projeto local usar o comando `pnpm run dev`
 
-## Expanding the ESLint configuration
+### Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" width=30 alt="typescript">
 
-- Configure the top-level `parserOptions` property like this:
+<img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" width=30 alt="typescript">
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<img src="https://github.com/marwin1991/profile-technology-icons/assets/62091613/b40892ef-efb8-4b0e-a6b5-d1cfc2f3fc35" width=30 alt="typescript">
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### API:
+
+https://open-meteo.com/en/docs
