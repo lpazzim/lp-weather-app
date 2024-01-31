@@ -11,11 +11,13 @@ Aplicação para incluir e exibir dados meteorológicos através dos parâmetros
 
 ### Stack
 
+<div>
 <img src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" width=30 alt="typescript">
 
 <img src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" width=30 alt="typescript">
 
 <img src="https://github.com/marwin1991/profile-technology-icons/assets/62091613/b40892ef-efb8-4b0e-a6b5-d1cfc2f3fc35" width=30 alt="typescript">
+</div>
 
 ### API:
 
